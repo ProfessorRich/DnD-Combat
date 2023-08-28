@@ -133,7 +133,7 @@ def take_turn(creature):
         print("It is " + creature.get_name() + "'s turn...\n")
     take_all_attacks(creature)
 
-# Actions a dice roll as defined as an instance of dice_roll_required and returns the result    
+# Actions a dice roll as defined as an instance of dice_roll_required and returns the result.
 def dice_roll_actioned(dice_roll_required):
     total_dice_result = 0
     
@@ -167,7 +167,7 @@ def take_all_attacks(attacker):
                 if print_status:
                     print(" misses!")
 
-# Rolls initiative for one creature            
+# Rolls initiative for one creature.         
 def roll_initiative(creature):
     initiative_modifier = get_ability_score_modifier(creature.dex)
     initiative = dice_roll_actioned(dice_roll_required(1, 20, initiative_modifier))
