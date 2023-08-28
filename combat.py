@@ -242,8 +242,8 @@ def run_combat_x_times(x, creatures):
 #test code
 test_1 = creature('Arnold the Anvil', 89, 21, [{'attack': 'Longsword', 'attack_modifier': 8, 'damage': dice_roll_required(1, 8, 8), 'range': 0}, {'attack': 'Longsword', 'attack_modifier': 8, 'damage': dice_roll_required(1, 8, 8), 'range': 0}], 30, 18, 14, 16, 12, 13, 13, [], [], [], 'M', 'Humanoid', 'LG', '')
 test_2 = creature('Bolt', 100, 18, [{'attack': 'Morphed Limb', 'attack_modifier': 10, 'damage': dice_roll_required(2, 8, 2), 'range': 5},{'attack': 'Morphed Limb', 'attack_modifier': 10, 'damage': dice_roll_required(2, 8, 2), 'range': 5},{'attack': 'Morphed Limb', 'attack_modifier': 10, 'damage': dice_roll_required(2, 8, 2), 'range': 5}], 30, 18, 14, 18, 6, 12, 6, [], [], [], 'L', 'Demon', 'CE', '')
-test_3 = creature('ODreadnaught', 90, 15, [{'attack': 'Slam', 'attack_modifier': 8, 'damage': dice_roll_required(3, 6, 6), 'range': 5}], 30, 18, 14, 18, 6, 12, 6, [], [], [], 'L', 'Demon', 'CE', '')
-test_4 = creature('Energy Cube', 130, 10, [{'attack': 'Psuedopod', 'attack_modifier': 5, 'damage': dice_roll_required(6, 6, 3), 'range': 5}], 30, 18, 14, 18, 6, 12, 6, [], [], [], 'L', 'Demon', 'CE', '')
+test_3 = creature('Ooze Dreadnaught', 90, 15, [{'attack': 'Slam', 'attack_modifier': 8, 'damage': dice_roll_required(3, 6, 6), 'range': 5}], 30, 18, 14, 18, 6, 12, 6, [], [], [], 'L', 'Demon', 'CE', '')
+test_4 = creature('Energy Gel Cube', 130, 10, [{'attack': 'Psuedopod', 'attack_modifier': 5, 'damage': dice_roll_required(6, 6, 3), 'range': 5}], 30, 18, 14, 18, 6, 12, 6, [], [], [], 'L', 'Demon', 'CE', '')
 test_creatures_in_combat = [test_1, test_2]
 run_combat_x_times(100, test_creatures_in_combat)
 
