@@ -10,22 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 - Python 3.x
 
-### Installing
-
-Clone the repository to your local machine:
-
-```
-git clone  https://github.com/ProfessorRich/DnD-Combat.git
-```
-
-Change directory into the project folder.
-
-Run the `combat.py` script:
-
-```
-python combat.py
-```
-
 ## Usage
 
 The `combat.py` script contains the `creature` class and the `dice_roll_required` class. 
