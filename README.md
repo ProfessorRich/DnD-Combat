@@ -1,4 +1,4 @@
-# DnD 5th Edition Combat Simulator
+# Rich's DnD 5th Edition Combat Simulator v1
 
 This project is a Python script to automatically calculate Dungeons and Dragons (DnD) 5th edition combat. It simulates combat between creatures by automatically rolling dice, calculating damage, and determining the winner. 
 
